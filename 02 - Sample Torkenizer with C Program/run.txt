@@ -1,0 +1,3 @@
+flex sample.l
+gcc sample.c lex.yy.c -o sample.exe
+sample.exe < input.in
