@@ -37,7 +37,7 @@ stmt:
 %%
 
 int yyerror(char *s){
-    printf("Syntax error on line %s\n", s);
+    printf("%s\n", s);
     return 0;
 }
 
