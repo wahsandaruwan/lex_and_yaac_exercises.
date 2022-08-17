@@ -1,0 +1,4 @@
+flex sample.l
+bison -d sample.y
+gcc lex.yy.c sample.tab.c
+a.exe
